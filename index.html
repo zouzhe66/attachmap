@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Demo</title>
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main-container">
+        <!--地图部分-->
+        <div id="mapContainer" class="map-container">
+            <canvas id="mapAttack" class="map-attack"></canvas>
+            <div id="pointArea" class="point-area"></div>
+            <div id="mapArea" class="map-area"></div>
+        </div>
+
+        <div class="out-container attack-detail">
+            <div class="c-header">实况展示<span class="fa fa-angle-down close-right"></span></div>
+            <div id="attackDetails" class="c-body">
+                <!--攻击条目-->
+            </div>
+        </div>
+
+        <div class="out-container attack-types">
+            <div class="c-header">攻击类型<span class="fa fa-angle-left close-right"></span></div>
+            <div id="attackType" class="c-body">
+                <!--类型展示-->
+            </div>
+        </div>
+
+        <div class="out-container attack-types attack-type-tops attack-top5">
+            <div class="c-header">攻击类型Top5<span class="fa fa-angle-left close-right"></span></div>
+            <div id="attackTop" class="c-body">
+                <!--攻击类型Top5-->
+            </div>
+        </div>
+
+        <div class="out-container attack-tops attack-domail-tops attack-top5">
+            <div class="c-header header-right">被攻击域名Top5<span class="fa fa-angle-right close-right"></span></div>
+            <div id="attackDomTop" class="c-body">
+                <!--被攻击域名Top5-->
+            </div>
+        </div>
+
+        <div class="out-container attack-tops attack-ip-tops attack-top5">
+            <div class="c-header header-right">攻击Ip Top5<span class="fa fa-angle-right close-right"></span></div>
+            <div id="attackIpTop" class="c-body">
+                <!--攻击Ip Top5-->
+            </div>
+        </div>
+
+        <div id="changeType" class="rdo-btn" style="display:block;">
+            <div class="active">世界地图</div>
+            <div>中国地图</div>
+        </div>
+    </div>
+    <script src="./js/outcfg.js"></script>
+    <script src="./js/index.min.js"></script>
+
+</body>
+
+</html>
