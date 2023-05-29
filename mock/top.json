@@ -1,0 +1,44 @@
+{
+    "result": [
+        {
+            "ackType": 0,
+            "count": 456
+        },
+        {
+            "ackType": 1,
+            "count": 816
+        },
+        {
+            "ackType": 2,
+            "count": 868
+        },
+        {
+            "ackType": 3,
+            "count": 683
+        },
+        {
+            "ackType": 4,
+            "count": 473
+        },
+        {
+            "ackType": 5,
+            "count": 414
+        },
+        {
+            "ackType": 6,
+            "count": 958
+        },
+        {
+            "ackType": 7,
+            "count": 175
+        },
+        {
+            "ackType": 8,
+            "count": 769
+        },
+        {
+            "ackType": 9,
+            "count": 286
+        }
+    ]
+}
